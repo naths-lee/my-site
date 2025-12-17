@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Profile</title>
+   
+</head>
+<body>
+
+    <!-- Simple Navigation -->
+    <div class="navigation">
+        <h2>
+            <a href="#home">Home</a> |
+            <a href="#about">About Me</a>
+        </h2>
+    </div>
+
+    <hr>
+
+    <!-- 2-Column Layout -->
+    <table class="profile-layout-table">
+        <tr>
+            <!-- LEFT COLUMN -->
+            <td class="left-column">
+                <div id="home" class="profile-section">
+                    <br>
+                    <img src="https://uploads.onecompiler.io/4453eux6p/4453eumwp/Image.jpg" alt="Profile Image"><br><br>
+                    <h2>John Nathan Lee</h2>
+                    <span>Information Security Officer</span>
+                </div>
+
+                <hr>
+
+                <div class="profile-section">
+                    <h3>Contact</h3>
+                    <p>Email: <a href="mailto:leejd@students.nu-fairview.edu.ph">leejd@students.nu-fairview.edu.ph</a></p>
+                </div>
+
+                <hr>
+
+                <div class="profile-section">
+                    <h3>Skills</h3>
+                    <dl>
+                        <dt>Frontend</dt>
+                        <dd>HTML</dd>
+                        <dd>C++</dd>
+                        <dd>Java</dd>
+                    </dl>
+                </div>
+            </td>
+            <table>
+            <tr>
+            <td>
+            </td>
+            <!-- RIGHT COLUMN -->
+            <td class="right-column">
+                <div id="about" class="profile-section">
+                    <h2>About Me</h2>
+                    <p>I am a 2nd-year IT student from NU Fairview with a growing passion for technology, problem-solving, and continuous learning. I enjoy exploring new tools, improving my skills, and working on projects that challenge me to think creatively and analytically.</p>
+                </div>
+
+                <hr>
+
+                <div class="profile-section">
+                    <h2>Message Me</h2>
+                    <form action="submit" method="post">
+                        <p>
+                            <label for="name">Name:</label><br>
+                            <input type="text" id="name" name="name">
+                        </p>
+                        <p>
+                            <label for="email">Email:</label><br>
+                            <input type="email" id="email" name="email">
+                        </p>
+                        <p>
+                            <input type="submit" value="Send">
+                        </p>
+                    </form>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        <p><strong>WebProg - Web Programming 2025</strong></p>
+        
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>
