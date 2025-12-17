@@ -1,0 +1,119 @@
+.navbar {
+    background: #222;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: yellow;
+}
+
+
+#main-content {
+    display: flex;
+    max-width: 1100px;
+    margin: auto;
+    gap: 20px;
+}
+
+.left-column, .right-column {
+    width: 50%;
+}
+
+
+.profile-img {
+    width: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+
+.profile-name {
+    text-align: center;
+}
+
+.job-title {
+    color: gray;
+    font-style: italic;
+    text-align: center;
+    display: block;
+}
+
+
+.contact-section p {
+    font-size: 14px;
+}
+
+.contact-section a {
+    color: blue;
+    text-decoration: none;
+}
+
+.contact-section a:hover {
+    text-decoration: underline;
+}
+
+
+.skills-section dl {
+    background: #f3f3f3;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.skills-section dt {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.skills-section dd {
+    margin-left: 15px;
+    padding: 3px 0;
+}
+
+
+.about-section p {
+    line-height: 1.6;
+    text-align: justify;
+    margin: 10px 0;
+}
+
+
+.message-form input[type="text"],
+.message-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.message-form input[type="submit"] {
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: none;
+    background: #444;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.message-form input[type="submit"]:hover {
+    background: #000000;
+}
+
+
+.footer {
+    text-align: center;
+    background: #222;
+    padding: 10px;
+    color: white;
+}
